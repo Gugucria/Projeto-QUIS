@@ -13,6 +13,10 @@ import Correto2 from "./Correto2"
 import Quiz2 from "./Quiz2"
 import Quiz3 from "./Quiz3"
 import Acabou from "./Acabou.js"
+import Escolher from "./Escolha"
+import Sobre  from "./Sobre.js"
+import Contato from "./Contato"
+import Resultado from "./Resultado"
 
 function App() {
   return (
@@ -34,6 +38,11 @@ function App() {
         <Route path="/quiz2" element={<Quiz2/>}></Route>
         <Route path="/quiz3" element={<Quiz3/>}></Route>
         <Route path="/final" element={<Acabou/>}></Route>
+        <Route path="/escolha" element={<Escolher/>}></Route>
+        <Route path="/sobre" element={<Sobre/>}></Route>
+        <Route path="/contato" element={<Contato/>}></Route>
+        <Route path="/resultado" element={<Resultado/>}></Route>
+
     </Routes>
   </BrowserRouter>
   );

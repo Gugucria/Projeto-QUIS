@@ -1,29 +1,10 @@
-.barra {
-    margin: 0px;
-    font-weight: 900;
-    font-size: 50px;
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    color: #ff8a65;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 100%;
-}
-
-.centralizar {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-}
-
-.botao {
+.botaoo {
     display: flex;
     justify-content: center;
     align-items: center;
 
 
-    border-radius: 10px;
+    border-radius: 30px;
     width: 500px;
     margin: 30px auto;
     padding: 15px;
@@ -39,15 +20,7 @@
 
 }
 
-.botao:hover {
-    opacity: 1;
-}
-
-.alinhar {
-    text-align: center;
-}
-
-.fundoL {
+.fundo {
     width: 100%;
     padding: 300px 0;
     background-image: linear-gradient(90deg, rgba(255,255,255,1) 0%, rgba(250,216,188,1) 14%, rgba(255,112,67,1) 54%, rgba(255,87,34,1) 100%);
@@ -63,12 +36,4 @@
         background-position-x:100%;
     }
     
-}
-
-.input {
-    border: none;
-    margin: 10px;
-    width: 30%;
-    padding: 20px;
-    border-radius: 20px;
 }
