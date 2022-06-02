@@ -10,7 +10,7 @@ section {
 }
 
 section:nth-of-type(1) {
-    background-image: url(../public/QUIS\ \(21\).png);
+    background-image: url(../public/QUIS\ \(9\).png);
     height: 475px;
     filter: Opacity(100%);
 }
@@ -95,7 +95,7 @@ section:nth-of-type(6) {
 .container4 .card:hover {
     background-color: #ff5722;
     color: white;
-    margin-top: -50px;
+    margin-top: -70px;
     box-shadow: 2px 20px 25px #ff5722;
     border-color: #ff5722;
     opacity: 1;

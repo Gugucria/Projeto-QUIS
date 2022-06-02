@@ -7,8 +7,8 @@ function Sobre () {
            <ul className="dinamico">
                 <li><span>Inovador...</span></li>
                 <li><span>Único...</span></li>
-                <li><span>Cachorrada...</span></li>
-                <li><span>Cachorro...</span></li>
+                <li><span>Moderno...</span></li>
+                <li><span>Engenhoso...</span></li>
            </ul>
         </div>
     );

@@ -1,20 +1,27 @@
 import "./Quiz3.css"
+import Resultado from "./Resultado.js";
+import { useState } from "react";
 
 function Quiz3 () {
-    return (
-        <div className="centro">
-            <div>
-                <h1 className='pergunta'>Em que país vivemos ?</h1> 
-            </div>
-            <div className="respostas">
-                <a id="a1" href="/error2">Brasil</a>
-                <a id="a2" href="/error2">Sudão do Sul</a>
-                <a id="a3" href="/correto2">Moçambique</a>
-                <a id="a4" href="/final">Brazil</a>
-            </div>
+    const [ clicou, setClicou] = useState(false);
+    const [resultado, setResultado] = useState('');
 
-        </div>
-    );
-}
+    return (
+            <div className="centroooo">
+                    <p className="perguntaaaa">Qual o resultado de 200 : 2 ?</p> 
+                {
+                    clicou ?
+                    <Resultado resultado={resultado} next={"/final"}></Resultado>
+                    :
+                    <div className="respostassss">
+                        <a id="zu" onClick={()=> {setClicou(true); setResultado(false);}}>5</a>
+                        <a id="zuu" onClick={()=> {setClicou(true); setResultado(false);}}>200</a>
+                        <a id="zuuu" onClick={()=> {setClicou(true); setResultado(false);}}>400</a>
+                        <a id="zuuu" onClick={()=> {setClicou(true); setResultado(true);}}>100</a>
+                    </div>
+                }
+            </div>
+        );
+    }
 
 export default Quiz3;

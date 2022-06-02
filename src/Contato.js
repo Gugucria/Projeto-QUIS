@@ -28,7 +28,7 @@ function Contato () {
                <div><img src={imagem1} width="100px"/></div>
                <p className="idd3">Email</p>
                <div className="content3">
-                    <a href="">Link</a>
+                    <a href="mailto:gustavinoliveira777@gmail.com">Link</a>
                </div>
            </div>
         </div>

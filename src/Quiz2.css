@@ -1,9 +1,11 @@
-.centro {
-
-    background-color: white;
+.centrooo {
+    background-size: 500% 100%;
+    background-color: #ff8a65;
+    margin: 0;
 }
 
-.pergunta {
+
+.perguntaaa {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -11,15 +13,16 @@
 
     margin: 0px;
     height: 100px;
-    border-radius: 1000px;
+    border-radius: 0%;
 
-    font-size: 50px;
+    font-size: 70px;
     font-weight: 900;
-    background-color: #f09579;
-    color:#e64a19;
+    background-color: white;
+    color:#f87f5a;
+    opacity: 1;
 }
 
-.respostas {
+.respostasss {
     display: flex;
 
     flex-wrap: wrap;
@@ -28,11 +31,13 @@
     justify-items: center;
     width: 100%;
     margin: 10px;
+    background-size: 500% 100%;
+    background-color: #ff8a65;
  
 
 }
 
-.respostas > a{
+.respostasss > a{
     flex: 1 0 40%;
     display: flex;
     justify-content: center;
@@ -43,7 +48,7 @@
     height: 20vh;
 }
 
-#a1 {
+#su {
     font-size: 70px;
     background-color: #ff5722;
     padding: 40px;
@@ -51,7 +56,7 @@
  
 }
 
-#a2 {
+#suu {
     font-size: 70px;
     background-color: #ff5722;
     padding: 40px;
@@ -59,7 +64,7 @@
    
 }
 
-#a3 {
+#suuu {
     font-size: 70px;
     background-color: #ff5722;
     padding: 40px;
@@ -67,7 +72,7 @@
    
 }
 
-#a4 {
+#suuuu {
     font-size: 70px;
     background-color: #ff5722;
     padding: 40px;

@@ -1,14 +1,16 @@
-import "./Acabou";
+import "./Acabou.css";
+import imagem1 from './QUIS15.png';
 
 function Acabou () {
     return (
-        <div className="fundo">
-            <div className="organizar">
-
-            <h1 id="correct">Acabouuu! Parabéns por terminar o nosso QUIS</h1>
-
-            <a id="botao" href='/'>Voltar para home</a>
-        </div>
+        <div className="containerrr">
+            <div className="card">
+               <div><img src={imagem1}/></div>
+                <p className="idd">Você chegou ao Fim do nosso QUIS</p>
+               <div className="content">
+                    <a href="/">Link</a>
+               </div>
+            </div>
         </div>
     );
 }
